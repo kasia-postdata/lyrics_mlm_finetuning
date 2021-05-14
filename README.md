@@ -1,10 +1,10 @@
-### Finetuning MLM modesl for songs lyrics (google cloud)
+# Finetuning MLM modesl for songs lyrics (google cloud)
 
 ## Dataset
 
 Dataset for finetuning should be in parquet format and contain the column named 'lyrics'. Text will be splited into the lines before finetuning.
 
-##Word2vec
+## Word2vec
 
 To train or finetune (or both) the Wrod2vec model use this notebook: 'word2vec/lyrics_word2vec.ipynb'
 
@@ -14,7 +14,7 @@ To train or finetune (or both) the Wrod2vec model use this notebook: 'word2vec/l
 To finetune the transformer model use this script: 'transformers/finetune_mlm.py'
 
 
-# Tensorboard
+#### Tensorboard
 
 To use tensorboard (google cloud):
 Open teminal in Notebook instance and run this command (specify the port numbe and directory with loggs):
