@@ -9,12 +9,12 @@ Dataset for finetuning should be in parquet format and contain the column named 
 To train or finetune (or both) the Wrod2vec model use this notebook: 'word2vec/lyrics_word2vec.ipynb'
 
 
-##Transformers
+## Transformers
 
 To finetune the transformer model use this script: 'transformers/finetune_mlm.py'
 
 
-#Tensorboard
+# Tensorboard
 
 To use tensorboard (google cloud):
 Open teminal in Notebook instance and run this command (specify the port numbe and directory with loggs):
