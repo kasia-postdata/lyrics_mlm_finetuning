@@ -1,17 +1,11 @@
-# Finetuning MLM modesl for songs lyrics (google cloud)
+# Language Models for Spanish songs lyrics - experiments
 
-## Dataset
+In this repo you will find the scripts to train from scratch or fine-tune models to generate word-level and sentence-level representations:
+- Word2vec (https://github.com/aitoralmeida/spanish_word2vec, gensim)
+- GloVe (https://github.com/stanfordnlp/GloVe)
+- Sentence-BERT (https://github.com/UKPLab/sentence-transformers)
 
-Dataset for finetuning should be in parquet format and contain the column named 'lyrics'. Text will be splited into the lines before finetuning.
-
-## Word2vec
-
-To train or finetune (or both) the Wrod2vec model use this notebook: 'word2vec/lyrics_word2vec.ipynb'
-
-
-## Transformers
-
-To finetune the transformer model use this script: 'transformers/finetune_mlm.py'
+For further instructions please read READ.MD in each of directories:
 
 
 #### Tensorboard
