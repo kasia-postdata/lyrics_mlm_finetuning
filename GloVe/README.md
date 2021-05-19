@@ -19,7 +19,7 @@ The training objective of GloVe is to learn word vectors such that their dot pro
 
 ## Dataset
 
-We used:
+For the first model we used:
 1) Spanish corpora: https://github.com/josecannete/spanish-corpora
 Number of lines: 300904000 (300M)
 Number of tokens: 2996016962 (3B)
@@ -27,6 +27,8 @@ Number of tokens: 2996016962 (3B)
 103585 songs
 3) Spanish poetry - from Averell (no. 2,3,5,6)
 75955 stanzas
+
+For the second smaller model we used only lyrics and poetry ( 2),3) )
 
 ## Training
 
@@ -37,11 +39,19 @@ If you want to train model on your own corpora:
   `bash train_glove.sh`
   which will generate single corpus fine (from multiple files placed in `datasets/`) with 1 document per line (Cooccurrence contexts for words do not extend past newline characters), tokenize dataset (StantfordTokenizer), and train embeddings.
 
-Tune parameters according to your needs. We used:
+Tune parameters according to your needs. 
 
+For the first model we used:
 VOCAB_MIN_COUNT=5
 VECTOR_SIZE=300
 MAX_ITER=40
+WINDOW_SIZE=4
+X_MAX=10
+
+For the first model we used:
+VOCAB_MIN_COUNT=5
+VECTOR_SIZE=50
+MAX_ITER=20
 WINDOW_SIZE=4
 X_MAX=10
 
@@ -50,15 +60,6 @@ X_MAX=10
 1. Quiero hincarle el diente a tu culo redondo
 2. Esta noche voy a cogerte bien
 3. He amado, he llorado, he besado, me he entregado
-4. Y yo caí enamorado de la moda juvenil
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 
 ### requirements
