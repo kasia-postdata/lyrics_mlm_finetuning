@@ -1,6 +1,6 @@
 # GloVe
 
-We used original code from https://github.com/stanfordnlp/GloVe to train from scratch word-level representations.
+We used original code from https://github.com/stanfordnlp/GloVe to train from scratch word-level representations of Spanish language.
 
 ![image](https://user-images.githubusercontent.com/83391529/118666099-2d4eb180-b7f3-11eb-96c6-3ab00c781403.png)
 
