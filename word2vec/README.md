@@ -9,7 +9,7 @@ our model:https://zenodo.org/record/1410403
 
 ### Dataset
 Original sources:  
--news
+- news
 -Wikipedia
 - Spanish BOE
 -web crawling
