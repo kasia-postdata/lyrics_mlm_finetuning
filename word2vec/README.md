@@ -4,10 +4,28 @@ It does so in one of two ways, either using context to predict a target word (a 
 ![image](https://user-images.githubusercontent.com/83391529/119060091-d18e4f00-b9d1-11eb-83b7-870f6d5920a8.png)
 
 ## Training
+original model: https://github.com/aitoralmeida/spanish_word2vec  
+our model:https://zenodo.org/record/1410403  
 
 ### Dataset
+Original sources:  
+-news
+-Wikipedia
+- Spanish BOE
+-web crawling
+- open library sources  
+total amount of words 3.257.329.900
 
-Our pretrained model can be found here:
+Our dataset:  
+lyrics_digital_fingerprint.parquet (https://github.com/linhd-postdata/fandom-lyrics/blob/master/lyrics_digital_fingerprint.parquet)
+
+Size of corpus:  
+732765 songs  
+2310276 lines (trained with single lines)  
+discarding lines shorter than 10 characters  
+trained 1 line per sample  
+
+Our pretrained model can be found here: https://zenodo.org/record/4758900
 
 ### Advantages
 
