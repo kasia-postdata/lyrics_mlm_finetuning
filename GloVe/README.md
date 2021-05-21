@@ -41,25 +41,21 @@ If you want to train model on your own corpora:
 
 Tune parameters according to your needs. 
 
-For the first model we used:
-VOCAB_MIN_COUNT=5
-VECTOR_SIZE=300
-MAX_ITER=40
-WINDOW_SIZE=4
-X_MAX=10
+For the first model we used:  
+VOCAB_MIN_COUNT=5  
+VECTOR_SIZE=300  
+MAX_ITER=40  
+WINDOW_SIZE=4  
+X_MAX=10  
 
-For the first model we used:
-VOCAB_MIN_COUNT=5
-VECTOR_SIZE=50
-MAX_ITER=20
-WINDOW_SIZE=4
-X_MAX=10
+For the first model we used:  
+VOCAB_MIN_COUNT=5  
+VECTOR_SIZE=50  
+MAX_ITER=20  
+WINDOW_SIZE=4  
+X_MAX=10  
 
-### Evaluation
 
-1. Quiero hincarle el diente a tu culo redondo
-2. Esta noche voy a cogerte bien
-3. He amado, he llorado, he besado, me he entregado
 
 
 ### requirements
