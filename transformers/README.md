@@ -1,4 +1,4 @@
-# Sentence transformer (XLMRobertaForMaskedLM)
+# XLMRobertaForMaskedLM (Sentence transformer)
 
 
 ![image](https://user-images.githubusercontent.com/83391529/118826211-913cad00-b8bb-11eb-8971-5c56b1dfc5e8.png)
