@@ -41,22 +41,28 @@ If you want to train model on your own corpora:
 
 Tune parameters according to your needs. 
 
-For the first model we used:  
+For the first model (1), 2), 3)) we used:  
 VOCAB_MIN_COUNT=5  
 VECTOR_SIZE=300  
 MAX_ITER=40  
 WINDOW_SIZE=8  
 X_MAX=10  
 
-For the first model we used:  
+For the second model (2),3)) we used:  
 VOCAB_MIN_COUNT=5  
 VECTOR_SIZE=50  
-MAX_ITER=20  
+MAX_ITER=40  
 WINDOW_SIZE=8  
 X_MAX=10  
 
+For the second model (3)) we used:  
+VOCAB_MIN_COUNT=5  
+VECTOR_SIZE=300  
+MAX_ITER=40  
+WINDOW_SIZE=8  
+X_MAX=10  
 
-
+Models can be found here: https://unedo365.sharepoint.com/:f:/s/proyectoercpostdata/EoLs3mGpl1pBj02eL6cLMBQBJl9wUjLzW2x3m0GPl6cSgA?e=tG83rz
 
 ### requirements
 
