@@ -28,7 +28,7 @@ Number of tokens: 2996016962 (3B)
 3) Spanish poetry - from Averell (no. 2,3,5,6)
 75955 stanzas
 
-For the second smaller model we used only lyrics and poetry ( 2),3) )
+For models to compare we trained also: small model with only poetry and 
 
 ## Training
 
