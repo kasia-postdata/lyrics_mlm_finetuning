@@ -45,14 +45,14 @@ For the first model we used:
 VOCAB_MIN_COUNT=5  
 VECTOR_SIZE=300  
 MAX_ITER=40  
-WINDOW_SIZE=4  
+WINDOW_SIZE=8  
 X_MAX=10  
 
 For the first model we used:  
 VOCAB_MIN_COUNT=5  
 VECTOR_SIZE=50  
 MAX_ITER=20  
-WINDOW_SIZE=4  
+WINDOW_SIZE=8  
 X_MAX=10  
 
 
