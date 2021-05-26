@@ -5,7 +5,7 @@ It does so in one of two ways, either using context to predict a target word (a 
 
 ## Training
 original model: https://github.com/aitoralmeida/spanish_word2vec  
-our model:https://zenodo.org/record/1410403  
+our model:https://zenodo.org/record/1410403  or https://unedo365.sharepoint.com/:f:/s/proyectoercpostdata/EnetU6yNkABBtSezgnDSEnQBQRq_-ByV7UuFlzamJ1_fvg?e=0TJFzN
 
 ### Dataset
 Original sources:  
